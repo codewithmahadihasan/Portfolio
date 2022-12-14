@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/chL8DV1/book-house.png",
+    "name": "Book House",
+    "date": "03 December 2022",
+    "link": "https://book-house-01.web.app/",
+    "ditals": "Each one will work with different types of data, the user cannot use the seller's or seller admin's data. No one can place any order without login.ogin by verifying Firebase Dhara user.Admin can make any seller an admin if he wants.Adding payment system1",
+    "work": [
+      "All site data is taken from MongoDB & Added Photo ReactAnyone with a login can provide some boy information data",
+      " Added authorization system to site.",
+      "Added Photo React. Data sorting has been done so that the data does not become random."
+    ],
+    "option": [
+      {
+        "name": "HTML",
+        "image": "https://i.ibb.co/yPsR42g/download.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "https://i.ibb.co/VB6XkdL/download-1.png"
+      },
+      {
+        "name": "Firebase",
+        "image": "https://i.ibb.co/ccRJVG9/images-1.png"
+      },
+      {
+        "name": "MongoDB",
+        "image": "https://i.ibb.co/sbrJDVd/download-2.png"
+      },
+      {
+        "name": "Node.js",
+        "image": "https://i.ibb.co/bmFBzH8/nodejs-development-services.webp"
+      },
+      {
+        "name": "React.js",
+        "image": "https://i.ibb.co/4f8bhLc/community-Icon-4g1uo0kd87c61.png"
+      },
+      {
+        "name": "React Router Dom",
+        "image": "https://i.ibb.co/ccRJVG9/images-1.png"
+      },
+      {
+        "name": "Stripe.js",
+        "image": "https://i.ibb.co/TYgdjz0/unnamed.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/DCN6600/book.png",
+    "name": "Edgar Allan",
+    "date": "20 november 2022",
+    "link": "https://edgar-allan-poe-90b18.web.app/",
+    "ditals": "All site data is taken from MongDB.Added authorization system to site.Anyone with a login can give a boy review.Anyone with a login can provide some boy information. Added Photo React. Data sorting has been done so that the data does not become random",
+    "work": [
+      "All site data is taken from MongoDB & Added Photo ReactAnyone with a login can provide some boy information data",
+      " Added authorization system to site.",
+      "Added Photo React. Data sorting has been done so that the data does not become random."
+    ],
+    "option":[
+      {
+        "name": "HTML",
+        "image": "https://i.ibb.co/yPsR42g/download.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "https://i.ibb.co/VB6XkdL/download-1.png"
+      },
+      {
+        "name": "Firebase",
+        "image": "https://i.ibb.co/ccRJVG9/images-1.png"
+      },
+      {
+        "name": "MongoDB",
+        "image": "https://i.ibb.co/sbrJDVd/download-2.png"
+      },
+      {
+        "name": "Node.js",
+        "image": "https://i.ibb.co/bmFBzH8/nodejs-development-services.webp"
+      },
+      {
+        "name": "React.js",
+        "image": "https://i.ibb.co/4f8bhLc/community-Icon-4g1uo0kd87c61.png"
+      },
+      {
+        "name": "React Router Dom",
+        "image": "https://i.ibb.co/ccRJVG9/images-1.png"
+      },
+      {
+        "name": "Stripe.js",
+        "image": "https://i.ibb.co/TYgdjz0/unnamed.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/yR76DxX/Untitled.png",
+    "name": "Doctors Portal",
+    "date": "27 november 2022",
+    "link": "https://doctor-fcc05.web.app/",
+    "ditals": "No one can place any order without login.ogin by verifying Firebase Dhara user. Admin can make any seller an admin if he wants. Adding payment system",
+    "work": [
+      "All site data is taken from MongoDB & Added Photo ReactAnyone with a login can provide some boy information data",
+      " Added authorization system to site.",
+      "Added Photo React. Data sorting has been done so that the data does not become random."
+    ],
+    "option": [
+      {
+        "name": "HTML",
+        "image": "https://i.ibb.co/yPsR42g/download.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "https://i.ibb.co/VB6XkdL/download-1.png"
+      },
+      {
+        "name": "Firebase",
+        "image": "https://i.ibb.co/ccRJVG9/images-1.png"
+      },
+      {
+        "name": "MongoDB",
+        "image": "https://i.ibb.co/sbrJDVd/download-2.png"
+      },
+      {
+        "name": "Node.js",
+        "image": "https://i.ibb.co/bmFBzH8/nodejs-development-services.webp"
+      },
+      {
+        "name": "React.js",
+        "image": "https://i.ibb.co/4f8bhLc/community-Icon-4g1uo0kd87c61.png"
+      },
+      {
+        "name": "React Router Dom",
+        "image": "https://i.ibb.co/ccRJVG9/images-1.png"
+      },
+      {
+        "name": "Stripe.js",
+        "image": "https://i.ibb.co/TYgdjz0/unnamed.png"
+      }
+    ]
+  }
+]
