@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 const Navber = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const link = (
     <>
       <li>
         <a
-          href="#home"
+          href="/"
           aria-label="Our product"
           title="Our product"
           className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
@@ -57,11 +57,11 @@ const Navber = () => {
         </a>
       </li>
     </>
-  );
+  )
 
   return (
     <div>
-      <div className="bg-gray-900 fixed  z-10 top-0 w-full mb-20 mr-0 ml-0">
+      <div className="bg-gray-900 fixed  z-10 top-0 w-full  mr-0  ml-0">
         <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="relative z- flex items-center justify-between">
             <a
@@ -143,7 +143,7 @@ const Navber = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navber;
+export default Navber

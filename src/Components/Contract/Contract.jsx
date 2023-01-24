@@ -1,29 +1,29 @@
-import React, { useRef } from "react";
-import emailjs from "emailjs-com";
-import Swal from "sweetalert2";
+import React, { useRef } from 'react'
+import emailjs from 'emailjs-com'
+import Swal from 'sweetalert2'
 
 const Contract = () => {
-  const form = useRef();
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs
       .sendForm(
-        "service_xnqfkh8",
-        "template_dvf2sbk",
+        'service_xnqfkh8',
+        'template_dvf2sbk',
         form.current,
-        "taR4zxvD5_k9leIxs"
+        'taR4zxvD5_k9leIxs',
       )
       .then(
         (result) => {
-          Swal.fire("Thank you so much", "You clicked the button!", "success");
+          Swal.fire('Thank you so much', 'You clicked the button!', 'success')
         },
         (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+          console.log(error.text)
+        },
+      )
+  }
   return (
     <div id="contract">
       <section className="py-6  bg-gray-200 ">
@@ -67,7 +67,7 @@ const Contract = () => {
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
                   </svg>
                 </a>
-                <a target={"blank"} href="tel:8801792205520">
+                <a target={'blank'} href="tel:8801792205520">
                   <span className="hover:underline hover:text-teal-700">
                     +8801792205520
                   </span>
@@ -85,7 +85,7 @@ const Contract = () => {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                   </svg>
                 </a>
-                <a target={"blank"} href="mailto:mahadi.hasan33@hotmail.com">
+                <a target={'blank'} href="mailto:mahadi.hasan33@hotmail.com">
                   <span className="hover:underline hover:text-teal-700">
                     mahadi.hasan33@hotmail.com
                   </span>
@@ -130,7 +130,7 @@ const Contract = () => {
             </label>
             <button
               type="submit"
-              className="self-center px-8 py-2 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-teal-400 text-gray-900 focus:ring-teal-400  hover:ring-teal-400"
+              className="self-center px-8 py-2 text-lg rounded font-semibold bg-teal-400 text-gray-900 hover:text-white  hover:bg-teal-800"
             >
               Submit
             </button>
@@ -138,7 +138,7 @@ const Contract = () => {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Contract;
+export default Contract

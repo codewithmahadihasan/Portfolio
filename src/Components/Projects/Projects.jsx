@@ -1,25 +1,41 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { useEffect } from "react";
-import { useState } from "react";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
+import { useEffect } from 'react'
+import { useState } from 'react'
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState([])
+  const [loader, setLoader] = useState(true)
 
   useEffect(() => {
-    fetch("https://protfolio-backend-loneliness-mahadi.vercel.app/project")
+    // setLoader(true)
+    fetch('https://protfolio-backend-loneliness-mahadi.vercel.app/project')
       .then((res) => res.json())
-      .then((data) => setProjects(data));
-  });
+      .then((data) => {
+        setProjects(data)
+      })
+    setLoader(false)
+  })
+
+  if (loader) {
+    return <h1>Loading...</h1>
+  }
 
   return (
-    <section id="projects">
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <h1 className="text-4xl text-center font-bold my-10">Projects</h1>
+    <section>
+      <div
+        id="projects"
+        className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      >
+        <h1 className="text-4xl pb-14 pt-6 text-center font-bold">Projects</h1>
         <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           {projects.map((project) => (
-            <div key={project?.id} project={project}>
+            <Link
+              to={`/project/${project?._id}`}
+              key={project?.id}
+              project={project}
+            >
               <div className="overflow-hidden hover:shadow-xl hover:shadow-teal-400 transition-shadow duration-300 bg-white rounded shadow-sm">
                 <img
                   src={project?.image}
@@ -58,12 +74,13 @@ const Projects = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
+      {/* <Link to="/allProject">All Project</Link> */}
     </section>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
