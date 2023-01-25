@@ -66,7 +66,7 @@ const Header = () => {
                     <BsChevronBarDown className="text-xl font-bold ml-2"></BsChevronBarDown>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/loneliness-mahadi/ "
+                    href="https://www.linkedin.com/in/codewithmahadihasan/ "
                     target="blank"
                     aria-label=""
                     className="inline-flex items-center font-semibold text-gray-100 transition-colors duration-200 hover:text-teal-400"
